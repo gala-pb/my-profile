@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Pornstar';
+  src: url('./fonts/PORNSTAR.TTF');
+}
+
+@font-face {
+  font-family: 'A Abstract Groovy';
+  src: url('./fonts/aAbstractGroovy.ttf');
+}
+
+
+li {
+padding: 10px;
+}
+
+body {
+  text-align: center;
+  background-image: url(images/background.jpg);
+}
+
+h1 {
+  color: #054582;
+  font-size: 50px;
+  font-family: 'Pornstar';
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+h3 {
+  color: #3585CD;
+  font-size: 30px;
+  font-family: 'A Abstract Groovy';
+}
+
+p {
+  color: #373737;
+  font-size: 15px;
+  font-family: Gill sans;
+}
+
+.list-inline {
+  list-style: none;
+  display: inline-flex;
+  margin-top: 1px;
+  padding: 1px;
+}
+
+.img-circle {
+  border-radius: 200%;
+  margin-top: 5px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.card-white {
+  background-color: white;
+  margin: 5px;
+  padding: 50px;
+  border-radius: 20px;
+}
+ .box {
+  --mask:
+    radial-gradient(51.61px at 50% 72.00px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
+    radial-gradient(51.61px at 50% -42px,#0000 99%,#000 101%) 50% 30px/120px calc(51% - 30px) repeat-x,
+    radial-gradient(51.61px at 50% calc(100% - 72.00px),#000 99%,#0000 101%) calc(50% - 60px) 100%/120px 51% repeat-x,
+    radial-gradient(51.61px at 50% calc(100% + 42.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px calc(51% - 30px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+
+}
+
+.bttn-black {
+  font-family: Gill sans;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: black;
+  padding: 20px 30px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.bttn-black:hover {
+  background-color: #3585CD;
+  color: white;
+  transition: 0.5s ease;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
